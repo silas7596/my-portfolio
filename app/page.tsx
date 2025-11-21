@@ -114,9 +114,9 @@ const SKILLS = {
     { name: "PHP & Laravel", level: 90 },
     { name: "JavaScript/TypeScript", level: 85 },
     { name: "React/Next.js", level: 80 },
-    { name: "MySQL/MongoDB", level: 75 },
+    { name: "MySQL/Wordpress", level: 75 },
     { name: "Python", level: 70 },
-    { name: "React Native", level: 65 }
+    { name: "Woocomerce", level: 65 }
   ],
   professional: [
     { name: "Communication", level: 95 },
@@ -150,7 +150,7 @@ const TESTIMONIALS = [
 ];
 
 const STATS = [
-  { number: "50+", label: "Projects Completed" },
+  { number: "4+", label: "Projects Completed" },
   { number: "98%", label: "Client Satisfaction" },
   { number: "2+", label: "Years Experience" },
   { number: "24/7", label: "Support Available" }
@@ -402,7 +402,7 @@ export default function Portfolio() {
             <div className="relative bg-slate-900 rounded-2xl p-8 border border-slate-800 transform-style-preserve-3d group-hover:rotate-y-5 transition-transform duration-500">
               <div className="w-80 h-80 mx-auto relative">
                 <Image 
-                  src="/profile1.jpg" 
+                  src="/profile3.jpg" 
                   alt="Silas Aloo Profile" 
                   fill
                   className="object-cover rounded-2xl shadow-2xl"
@@ -619,8 +619,8 @@ export default function Portfolio() {
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
               {[
                 { name: "React", icon: <Code2 className="w-8 h-8" /> },
-                { name: "Next.js", icon: <Globe className="w-8 h-8" /> },
-                { name: "PHP", icon: <Server className="w-8 h-8" /> },
+                { name: "Wordpress", icon: <Globe className="w-8 h-8" /> },
+                { name: "Woocomerce", icon: <Server className="w-8 h-8" /> },
                 { name: "MySQL", icon: <DbIcon className="w-8 h-8" /> },
                 { name: "Python", icon: <Terminal className="w-8 h-8" /> },
                 { name: "TypeScript", icon: <Code2 className="w-8 h-8" /> }
